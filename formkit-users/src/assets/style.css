@@ -1,0 +1,66 @@
+/* CCS PARA TODO EL PROYECTO */
+*{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* CSS TempForm */
+.formkit-input-floating{
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.formkit-label-floating{
+    background-color: #fff;
+    color: #bababa;
+    cursor:text;
+    left: 50px;
+    outline: none;
+    padding: 0px 10px;
+    position: absolute;
+    transition: all .3s ease;
+}
+
+.formkit-input-floating:focus + .formkit-label-floating{
+    color: black;
+    transform: translateY(-100%);
+    transition: all .3s ease;
+    transform: translateY(-100%);
+}
+
+.formkit-input-wrapper{
+    width: 100%;
+}
+
+.up-label{
+    transition: all .3s ease;
+    color: black;
+    transform: translateY(-120%);
+}
+
+/* CSS PARA FormUser */
+.up-label{
+    transition: all .3s ease;
+    color: black;
+    transform: translateY(-100%);
+}
+
+
+
+/* CSS GENERAL PARA TempForm y FormUser */
+.formkit-inner{
+    display: flex;
+    gap: 2px;
+}
+
+.title-form{
+    z-index: 2;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
